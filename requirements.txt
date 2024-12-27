@@ -1,0 +1,7 @@
+crewai
+crewai_tools
+ipykernel
+markdown
+pdfkit
+langchain
+langchain-community
