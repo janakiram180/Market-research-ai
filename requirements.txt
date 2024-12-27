@@ -5,3 +5,5 @@ markdown
 pdfkit
 langchain
 langchain-community
+chromadb
+db-sqlite3
