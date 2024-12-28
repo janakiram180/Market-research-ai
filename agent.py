@@ -14,7 +14,7 @@ researcher = Agent(
         "An experienced business analyst with over a decade of expertise in extracting key market insights. "
         "You specialize in identifying value propositions and competitive edges."
     ),
-    tools=[SearchTool(), FileWriterTool()],
+    tools=[SearchTool()],
     verbose=True,
     memory=True,
     llm="gpt-4o-mini",
@@ -32,7 +32,7 @@ use_case_generator = Agent(
         "A domain expert in AI applications, known for creating impactful solutions for industry challenges. "
         "You align technology capabilities with business needs."
     ),
-    tools=[SearchTool(), FileWriterTool()],
+    tools=[SearchTool()],
     verbose=True,
     memory=True,
     llm="gpt-4o-mini",
@@ -50,9 +50,9 @@ writer = Agent(
         "A skilled writer with a passion for simplifying complex technical analyses into clear, actionable insights. "
         "You excel at crafting content that resonates with technical and non-technical audiences alike."
     ),
-    tools=[DirectoryReadTool(), FileReadTool(), FileWriterTool()],
+    tools=[FileWriterTool()],
     verbose=True,
     memory=True,
     llm="gpt-4o-mini",
-    allow_delegation=True,
+    allow_delegation=False,
 )
