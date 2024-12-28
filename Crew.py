@@ -7,6 +7,7 @@ crew = Crew(
     tasks=[industry_research_task, use_case_task,write_report_task],
     verbose=True,
     planning=True,  # Enable planning feature
+    memory=True,
 )
 
 # Execute tasks
