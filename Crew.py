@@ -5,7 +5,7 @@ from pdf import convert_md_to_pdf
 crew = Crew(
     agents=[researcher,use_case_generator,writer],
     tasks=[industry_research_task, use_case_task,write_report_task],
-    verbose=2,
+    verbose=True,
     planning=True,  # Enable planning feature
     memory=True,
 )
