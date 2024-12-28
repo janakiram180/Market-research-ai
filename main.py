@@ -1,12 +1,15 @@
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# __import__('pysqlite3')
+# import sys
+# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 from Crew import generator
 import time
 import os
 from markdown import markdown
 from pdf import convert_md_to_pdf
+from dotenv import load_dotenv,find_dotenv
+load_dotenv(dotenv_path='.env')
+
 st.title('Market Researcher.Ai 🤖')
 st.markdown("""
 ### About Market Researcher.Ai
