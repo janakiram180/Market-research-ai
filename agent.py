@@ -18,7 +18,7 @@ researcher = Agent(
     verbose=True,
     memory=True,
     llm="gpt-4o-mini",
-    allow_delegation=True,
+    allow_delegation=False,
 )
 
 # Agent 2: AI Use Case Specialist
@@ -36,7 +36,7 @@ use_case_generator = Agent(
     verbose=True,
     memory=True,
     llm="gpt-4o-mini",
-    allow_delegation=True,
+    allow_delegation=False,
 )
 
 # Agent 3: Content Writer
