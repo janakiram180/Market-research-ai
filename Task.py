@@ -22,7 +22,8 @@ use_case_task = Task(
 
 # Task 3: Write Market Research Report
 write_report_task = Task(
-    description="Write a comprehensive market research report including industry analysis, competitor benchmarks, proposed AI/ML use cases, and strategic recommendations. Each section should provide actionable insights and measurable outcomes.",
+    description="Use the Content Generate by the researcher and use_case_generator"
+    "Write a comprehensive market research report including industry analysis, competitor benchmarks, proposed AI/ML use cases, and strategic recommendations. Each section should provide actionable insights and measurable outcomes.",
     expected_output="A professional report covering in-depth market research, competitor analysis, AI/ML use cases, and actionable recommendations. Include data visualizations and references."
     "The report should be well detailed and should be covering all the usecases."
     "Add relavent links for annual report usecase dataset form platfroms like github,huggingface and kaggle",
