@@ -5,9 +5,10 @@ from crewai import Task
 # Task 1: Industry Research
 industry_research_task = Task(
     description="Conduct comprehensive market research for {company}. "
-                "understand the industry and segment the {company} is working in"
-                 "Include a deep dive into industry trends, competitor strategies, financial benchmarks, and consumer behavior insights."
-                 " Highlight technological adoption and areas for improvement.",
+                "understand the industry and segment the {company} is working in and Identify the company’s key offerings and strategic focus areas "
+                " A vision and product information on the industry should be fine as well."
+                 "Analyse Competitors to the {company}"
+                  "Understand where the company can improve with respect to competitors",
     expected_output="A report summarizing key findings, competitor analysis, industry benchmarks, and technological trends."
                      "Annual reports of competetor should also be analysed "
                      "Gather all the relavent links",
